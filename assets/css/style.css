@@ -19,7 +19,7 @@ body {
   /* set width for time element so it can contain 3 digits without moving the "time" text */
   
   time {
-    min-width: 75px;
+    min-width: 85px;
   }
   
   /* Main Styles */
