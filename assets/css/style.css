@@ -103,9 +103,9 @@ body {
   
   /* Media Queries */
   
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 850px) {
     .card {
-      max-width: 580px;
+      max-width: 680px;
     }
   }
   
