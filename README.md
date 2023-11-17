@@ -21,3 +21,5 @@
  - WHEN the game is over
  - THEN I can save my initials and score
 
+# Screenshot
+![alt text](./assets/images/Screenshot%202023-11-17%20at%2012.28.50 AM.png)
