@@ -87,10 +87,9 @@ const questions = [
     //set total time depending on number of questions
     time = questions.length * 10;
   
-    //executes function "countdown" every 1000ms to update time and display on page
-    intervalID = setInterval(countdown, 1000);
+    //executes function "countdown" every 500ms 
+    intervalID = setInterval(countdown, 500);
   
-    //invoke displayTime here to ensure time appears on the page as soon as the start button is clicked, not after 1 second
     displayTime();
   }
   
@@ -124,8 +123,6 @@ const questions = [
     }
   }
   
-  //behaviour when an answer button is clicked: click event bubbles up to div with id "quiz-options"
-  //eventObject.target identifies the specific button element that was clicked on
   document.querySelector("#quiz-options").addEventListener("click", checkAnswer);
   
   //Compare the text content of the option button with the answer to the current question
