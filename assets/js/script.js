@@ -290,3 +290,9 @@ const questions = [
     //display leaderboard on leaderboard card
     renderLeaderboard();
   }
+
+  
+// Event listener to move to index page
+goBack.addEventListener("click", function () {
+    window.location.replace("./index.html");
+});
